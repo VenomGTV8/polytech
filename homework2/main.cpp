@@ -107,12 +107,13 @@ int main(int argc, char** argv) {
                 return 0;
             }
             
-            /* Шар не долетел даже до первой */
+           
+		// Шар перелетел все барьеры 
             if (s1.allIsAbove(x_b, y_b)) {
                 cout << x_b.size();
 
             }
-            // Шар перелетел все барьеры 
+             /* Шар не долетел даже до первой */
             else if (s1.underFirst(x_b,y_b)) {
                 cout << 0;
             }
